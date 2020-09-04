@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QD1-Vn-Iu4">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Eqc-Bi-J3W">
+            <objects>
+                <tabBarController id="QD1-Vn-Iu4" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="evx-BW-jTy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1Jx-WD-EUZ" kind="relationship" relationship="viewControllers" id="yLU-1C-9Ng"/>
+                        <segue destination="fay-G9-uA0" kind="relationship" relationship="viewControllers" id="D8v-p7-V9w"/>
+                        <segue destination="Sq5-9G-jza" kind="relationship" relationship="viewControllers" id="wrs-wB-VT8"/>
+                        <segue destination="G2K-dL-mzX" kind="relationship" relationship="viewControllers" id="eLt-T3-nIN"/>
+                        <segue destination="evG-13-FM8" kind="relationship" relationship="viewControllers" id="iBZ-TA-dgx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kFV-8v-cLj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1062" y="-296"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="reA-ul-1gp">
+            <objects>
+                <navigationController id="1Jx-WD-EUZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="PdO-UY-te5"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iBc-tk-GCT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XXQ-KE-ftC" kind="relationship" relationship="rootViewController" id="3bf-9w-SWb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="13e-te-mcl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1832" y="415"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yUW-qV-Aht">
+            <objects>
+                <viewController id="3W3-Yc-ydG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TPW-9I-bXY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="siA-5n-80H"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BLh-2G-q9V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1833" y="1175"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1Kb-pX-9hb">
+            <objects>
+                <navigationController id="evG-13-FM8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="4TS-AP-4wm"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0fh-qz-uJj">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="li9-2n-5Zd" kind="relationship" relationship="rootViewController" id="cNI-MP-Nwb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zcC-50-wEl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1264" y="415"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NQ4-ur-mi5">
+            <objects>
+                <navigationController id="G2K-dL-mzX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="heart" catalog="system" id="ydv-yO-lmT"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hLe-7A-XSi">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ONt-AQ-2Qj" kind="relationship" relationship="rootViewController" id="K5B-Ul-h8p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="am0-Ej-Qyr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="501" y="415"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yfo-EB-6u1">
+            <objects>
+                <navigationController id="Sq5-9G-jza" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="plus" catalog="system" id="umH-qk-cHo"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U4H-Vy-4HE">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ONc-1c-GOz" kind="relationship" relationship="rootViewController" id="LT6-Uy-8pV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MWo-ur-qAY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-312" y="415"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lm3-hB-z3S">
+            <objects>
+                <navigationController id="fay-G9-uA0" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="2WV-Fa-PQ6"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VLf-mL-HME">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fwy-Ea-c5u" kind="relationship" relationship="rootViewController" id="uTp-v7-uh1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dG3-0V-NoN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1062" y="415"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="iRa-rM-HsQ">
+            <objects>
+                <viewController id="XXQ-KE-ftC" customClass="HomeViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D5H-GA-ILy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="I1O-EG-TxC"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pgr-r4-pNd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKH-CZ-wyy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1833" y="1175"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="CEW-RF-HJd">
+            <objects>
+                <viewController id="li9-2n-5Zd" customClass="ProfileViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e8d-7p-3Et">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="N7l-j6-gGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mBa-iw-RTv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YrA-l4-cBF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1264" y="1175"/>
+        </scene>
+        <!--Notifications View Controller-->
+        <scene sceneID="RiW-0h-f8e">
+            <objects>
+                <viewController id="ONt-AQ-2Qj" customClass="NotificationsViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aLB-73-6OL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ppU-SD-5NL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2Z4-Xw-JLQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="azd-zK-2Ua" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="500" y="1175"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="iWe-Yk-J2t">
+            <objects>
+                <viewController id="ONc-1c-GOz" customClass="CameraViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XEQ-Lq-Cvw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ePh-LT-Aj4"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RxY-UP-yY2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5hK-oS-ywZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-313" y="1175"/>
+        </scene>
+        <!--Explore View Controller-->
+        <scene sceneID="YZR-59-mcw">
+            <objects>
+                <viewController id="fwy-Ea-c5u" customClass="ExploreViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FH5-BD-xkA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="zv1-Id-p2w"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yVo-CL-QI4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v0Z-kw-4cS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1062" y="1175"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+    </resources>
+</document>
